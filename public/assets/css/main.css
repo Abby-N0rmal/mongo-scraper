@@ -54,7 +54,7 @@ button:focus {
   color: white;
   text-align: center;
   font-family: 'UnifrakturMaguntia', cursive;
-  text-shadow: 12px 12px 12px black;
+  text-shadow: 12px 12px 8px black;
 
 }
 
@@ -69,7 +69,7 @@ button:focus {
 	margin-top: 20;
 	padding: 0 20px;
 	font-family: 'Quicksand', sans-serif;
-	text-shadow: 0 0 20px tan;
+	 text-shadow: 2px 8px 8px black;
 }
 
 .button-dark {
@@ -85,7 +85,7 @@ button:focus {
   transition: all 300ms ease;
   margin: 1em 1em 1em 0.25em;
   box-shadow: 0 10px 50px 5px black;
-  border-radius: 10px;
+  border-radius: 10px 0 10px 0;
 }
 
 .button-dark:hover {
@@ -194,6 +194,7 @@ button:focus {
 	position: relative;
   margin: 50px 20px;
   opacity: 0.9;
+  box-shadow: 0 10px 50px 5px black;
 }
 
 .imgBox {
@@ -245,6 +246,7 @@ button:focus {
   transition: all 300ms ease;
   margin-right:10px;
   border-radius: 10px 0 10px 0;
+  box-shadow: 0 10px 50px 5px black;
 }
 
 .storyButton:hover {
