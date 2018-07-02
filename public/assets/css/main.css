@@ -201,6 +201,7 @@ button:focus {
 
 .imgBox {
   overflow: hidden;
+  box-shadow: 0 10px 50px 5px black;
   border: 3px solid #ddd;
 }
 
