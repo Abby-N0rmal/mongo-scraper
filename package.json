@@ -1,0 +1,30 @@
+{
+  "name": "mongoscraper",
+  "version": "1.0.0",
+  "description": "My Mongo Scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abby-N0rmal/mongoscraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abby-N0rmal/mongoscraper/issues"
+  },
+  "homepage": "https://github.com/Abby-N0rmal/mongoscraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.1.7",
+    "morgan": "^1.9.0",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "serve-favicon": "^2.5.0"
+  }
+}
