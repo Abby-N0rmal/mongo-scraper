@@ -34,16 +34,19 @@ button:focus {
 
 
 .header {
-
-  background: linear-gradient(to top right, #3D271A, black);
-  background-repeat: no-repeat;
-  background-position: center 35%;
+  background-color: #1C120C;
+  background-image: url('../img/gears.png');
+ /* background-repeat: no-repeat;*/
   position: fixed;
   width: 100%;
   height: var(--header-height);
   z-index: 100;
   border-bottom: 5px solid black;
   -webkit-box-shadow: 0 10px 20px 5px black;
+}
+
+.headBox {
+
 }
 
 #nyt {
@@ -154,7 +157,7 @@ button:focus {
 .note {
   background: transparent;
   margin-top: 5px;
-  
+  height: 3em;
   position: relative;
   cursor: pointer;
 }
